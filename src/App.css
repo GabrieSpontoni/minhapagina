@@ -13,6 +13,20 @@
   z-index: 100;
   right: 2rem;
   top: 2rem;
+  cursor: pointer;
+  transition: all ease 0.8s
+  
+  
+}
+
+.App-close{
+  position: fixed;
+  z-index: 100;
+  right: 2rem;
+  top: 2rem;
+  cursor: pointer;
+  transition: all ease 0.8s
+  
 }
 
 
@@ -126,6 +140,11 @@
   position: fixed;
   top: 0;
   right: 0;
+  transition: all ease 1s;
+}
+
+.App-sidebar.show-menu{
+  right: 0;
 }
 
 .App-menu{
@@ -163,10 +182,9 @@
 }
 
 .App-social-media a{
-  background-color: red;
   color:gray;
-  bottom : 2rem;
-  width: 100;
+  height : 2.5rem;
+  width: 2.5rem;
 }
 
 
