@@ -140,7 +140,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  transition: all ease 1s;
+  transition: all ease 0.5s;
 }
 
 .App-sidebar.show-menu{
@@ -185,6 +185,16 @@
   color:gray;
   height : 2.5rem;
   width: 2.5rem;
+}
+
+.App-conhecimentos{
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+.App-conhecimento svg{
+  width: 10rem;
+  height: 5rem;
 }
 
 
