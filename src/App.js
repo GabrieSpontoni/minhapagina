@@ -119,6 +119,51 @@ function App() {
 
       </section>
 
+      <section className = "App-sessao-projetos">
+        <div className = 'App-sessao-header'>
+          <h1>Projetos</h1>
+        </div>
+        <div className = 'App-projetos'>
+          <div className = 'App-card'>
+            <div className = 'App-card-img-wrapper'>
+              <img src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png' alt = "js"/>
+            </div>
+            <div className = 'App-card-info'>
+              <h2>Minha Pagina</h2>
+              <h3>JavaScript</h3>
+              <p>Procurando sempre melhorar meu conhecimento em diferentes linguagens de programação incluindo JS onde este site foi desenvolvido com esta linguagem</p>
+              <button>Saiba Mais</button>
+            </div>
+          </div>
+          <div className = 'App-card'>
+            <div className = 'App-card-img-wrapper'>
+              <img src = 'https://i2.wp.com/www.softsell.com.br/wp-content/uploads/2018/04/java_logo_640.jpg' alt = "java"/>
+            </div>
+            <div className = 'App-card-info'>
+              <h2>Loja</h2>
+              <h3>JavaScript</h3>
+              <p>Procurando sempre melhorar meu conhecimento em diferentes linguagens de programação incluindo JS onde este site foi desenvolvido com esta linguagem</p>
+              <button>Saiba Mais</button>
+            </div>
+          </div>
+          <div className = 'App-card'>
+            <div className = 'App-card-img-wrapper'>
+              <img src = 'https://miro.medium.com/max/5120/1*mp91A9RzagntGGjBnwu4Yw.png' alt = "Node"/>
+            </div>
+            <div className = 'App-card-info'>
+              <h2>Plain Receipt</h2>
+              <h3>JavaScript</h3>
+              <p>Procurando sempre melhorar meu conhecimento em diferentes linguagens de programação incluindo JS onde este site foi desenvolvido com esta linguagem</p>
+              <button>Saiba Mais</button>
+            </div>
+          </div>
+          
+        </div>
+        
+
+
+      </section>
+
 
 
       
